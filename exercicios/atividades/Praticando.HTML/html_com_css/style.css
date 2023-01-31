@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+#body {
+    background-image: linear-gradient(to bottom, #000000, #B7918C,  #C5A48A );
+    background-attachment: fixed;
+}
+main {
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px yellow ;
+}
+
+.h1_1º {                                                                                         /* 1º H1 */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 4px 4px orange;
+    color: #1B1B3A;
+}
+
+.p1 {                                                                                          /* Paragrafo 1 */
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 15px;
+}
+
+.img_1 {
+    align-items: center;                                                                                        /* img_1*/
+  border-radius: 50%;
+  border:solid 10px;
+  width: 250px;
+  height: 250px;
+}
+.h1_2º {                                                                                            /* 2º H1 */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 25px;
+     color: #1B1B3A;
+     text-shadow: 4px 4px 4px orange;
+}
+
+.p2 {                                                                                             /* Paragrafo 2 */
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 15PX;
+   color: #212529;
+}
+.h2_1º {                                                                                               /* 1º H2 */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 4px grey;
+    color: #1B1B3A;
+}
+
+.p3 {                                                                                               /* P 3 */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+
+}
+
+.video_1 {                                                                                            /* Vídeo  1*/
+    align-items: center;
+  border-radius: 50%;
+  border:solid 10px;
+  width: 250px;
+  height: 250px;  
+}
+
+.img_2{
+    align-items: center;                                                                                        /* img_2*/
+    border-radius: 0%;                 /* BORDA DA PÁGINA ARREDONDADO */
+    border: solid green 5px;         /* BORDA EM REDOR DA IMAGEM */
+   width: 100%;                         /* LARGURA DA PÁGINA */
+   height: 100px;                       /* ALTURA DA PÁGINA*/
+}
+
+.p5 {                                                                                                /* P 5 */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color: blue;
+}
+                                                                                                    /* INICIO DA PÁGINA 1*/
+
+#body_1{
+    background-image: linear-gradient(to bottom, #01ffff, #B7918C,  #C5A48A );
+    background-attachment: fixed;
+}
+
+.p6 {                                                                                                 /* P 6 */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color: blue;
+}
+
+.h1_3º {                                                                                                 /* 3º h1 */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #1B1B3A;
+    text-shadow: 2px 4px 4px orange;
+    
+}
+.table { 
+    color:black;                                                                                      /* tabela - Cor de Fundo*/
+    background-color: red;
+    box-shadow: 5px 5px 25px black
+}
+
+.tr_1, .tr_2 {                                                                                  /* tr 1-2 */
+    background-color: #5983a3;
+}
+
+.tr_3, .tr_5, .tr_7, .tr_9, .tr_11, .tr_13 {                                                    /* tr 3-5-7-9-11-13 */
+    background-color: grey;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 4px 4px yellow;
+}
+.tr_4, .tr_6, .tr_8, .tr_10, .tr_12{                                                            /* tr 4-6-8-10-12 */
+    background-color: rgb(221, 218, 218);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.p7 {                                                                                                /* p 7 */
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 15PX;
+}
+
+.img_3 {                                                                                             /* img_3 */
+    border-radius: 20px; 
+}
+
+.h2_2º {                                                                                             /* 2º h2*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 4px grey;
+}
+
+.p9 {
+    text-align: center;
+}
+                                                            /* INICIO DA PÁGINA 02 */
+#body_2{
+    background-image: linear-gradient(to bottom, #ff0000, #B7918C,  #C5A48A );
+    background-attachment: fixed;
+}
+

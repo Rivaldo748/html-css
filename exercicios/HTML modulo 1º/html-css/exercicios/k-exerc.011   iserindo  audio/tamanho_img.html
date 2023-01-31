@@ -1,0 +1,38 @@
+<!DOCTYPE html>                 <!--AULA MITO IMPORTANTE-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho De Imagens </title>
+</head>
+<body>
+    <p>Tente abrir este Site em varios Dispositivos diferentes ou simplesmente<br>
+     almente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 500px )" srcset="imagem/imagem_PP_.png" type="image/png">
+        <source media="(max-width: 750px )" srcset="imagem/imagem_P_.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/imagem_M_.png" type="image/png">
+        <img src="imagem/imagem_G_.png" alt="imagem flexível">
+    </picture>
+    <h1>AGORA VAMOS APRENDER A REPRIDUZIR ÁUDIO</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+
+    <!--ABAIXO está o primeiro formato de colocar um áudio no HTML-->
+    <h1>DESERTO</h1>
+    <audio src="midia/deserto.mp3" controls autoplay loop> Deserto</audio> <br> 
+    <H1>RESTITUI</H1>
+    <audio src="midia/restitui.mp3" controls autoplay loop> Restitui</audio> <br>
+    
+    <!--ABAIXO está o segundoo formato de colocar áudio no HTML
+        utilizando os formatos (MP3) (OGG) (WAV)-->
+        <h1>VIDALOKA PRTE-2</h1>
+    <audio preload="metadata" altoplay controls loop>
+        <source src="midia/Vida Loka Parte-2.mp3" type="audio/mpeg">
+        <source src="midia/Vida Loka Parte-2.ogg" type="audio/ogg">
+        <source src="midia/Vida Loka Parte-2.wav" type="audio/wav">
+
+    </audio>
+</body>
+</html>

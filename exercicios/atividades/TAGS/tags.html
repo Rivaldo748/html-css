@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TAGS.</title>
+        <link rel="shortcut icon" href="html-5.png" type="image/x-icon">
+        <link rel="stylesheet" href="tags.css">   
+<body>
+<main>
+
+
+    <h2>
+         ADAPTAR IMAGENS A QUALQUER TELA <br>
+    </h2>
+
+    <p>
+        <b> ADAPTANDO IMAGENS</b> <br>
+        &lt;picture&gt; <br>
+        &lt;source media="(max-width:800px)" srcset="imagem-pq.jpg"&gt; <br>
+        &lt;img src="imagem-grande.jpg"&gt; <br>
+        &lt;/picture> &gt;
+    </p>
+
+    <p>
+        <b>
+            DIVIDIR UMA LISTA EM DUAS COLUNAS <br>
+        </b>
+         list-style-position: inside;
+    </p>
+
+    <p>
+        <b>
+            INSERIR CORRENTE NOS LINKS EXTERNO <br>
+            DE UMA ( classe="externo" ) PARA O LINK <br> <br>
+        </b>
+        a.externo::after { <br>
+            content: '\00A0\1F517'; <br>
+        }
+    </p>
+
+<h2 align="center">TAGS PARA TABELA.</h2>                                                    <!--TAGS PARA TABELA.-->
+
+<p>
+    <b>INICIAR UMA NOVA TABELA.</b> <br>
+    &lt; table &gt;
+</p>
+<p>
+    <b>INDICA O CABEÇALHO DA TABELA.</b> <br>
+    &lt; thead &gt;
+</p>
+<p>
+    <b>INICIA UMA ANOVA LINHA DA TABELA.</b> <br>
+    &lt; tr &gt;
+</p>
+<p>
+    <b> TITULO DA TABELA.</b> <br>
+    &lt; th &gt;
+</p>
+<p>
+    <b>
+        &lt; tr &gt; <br> &nbsp; &nbsp; &nbsp; &lt; th &gt; coluna da tabela &lt; th &gt; O (th) DENTRO DO (tr) ELE SE TORNA COLUNA DA TABAELA <br>
+        &lt; /tr &gt; <br>
+    </b>
+</p>
+<p>
+    <b>COLSPAN PERMITE MESCLAR AS LINHAS OU COLUNAS DA TABELA</b> <br>
+    &lt; colspan &gt; &nbsp;
+</p>
+
+
+<h2 align="center">TAGS PARA TRABALHAR COM CORES EM DEGRADE</h2>                                    <!--TAGS PARA TRABALHAR COM CORES EM DEGRADE-->
+<p>
+<b>DEGRADE EM CIRCULO</b> <br>
+background-image: radial-gradient (circle, #, #, #);
+</p>
+<p>
+<b>DEGRADE  45 - 90 - 180-  GRALS</b> <br>
+background-image: linear-gradient (45deg, #, #, #);
+</p>
+<p>
+<b>DEGRADE: ESQUERDO - DIREITA - BAIXO - CIMA</b> <br>
+background-image: linear-gradient (to left, #, #, #);
+</p>
+<p>
+<b>DEIXAR O FUNDO DEGRADE FIXO</b> <br>
+background-attachment: fixed;
+</p>
+
+<h2 align="center">TAGS PARA UTILIZAR NO CSS</h2>
+
+<p>
+    <b style="background-color:orange ;">ATRIBUTOS PARA COILOCAR DENTRO DE UMA (div) CSS.</b> <br>
+    .div{ <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; font-family: Arial;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>TIPO DE FONTE</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; display: inline-block; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>TUDO NA MESMA LINHA</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; display: block;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>FAZER A " div " APARECER</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; position: relative; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>MOVER PARA QUALQUER LUGAR</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; position: absolute;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>FIXADO NA TELA " Se rolar a pagina ele permanece no lugar</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; font-size: 15px; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>TAMANHO DA FONTE</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; line-height: 5; &nbsp;&nbsp;&nbsp;&nbsp; <b>DISTÂNCIA DE UMA LINHA PARA A OUTRA</b> <br> 
+        &nbsp;&nbsp;&nbsp;&nbsp; height: 100%;  &nbsp;&nbsp;&nbsp;&nbsp;<b>ALTURA</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; width: 25%; &nbsp;&nbsp;&nbsp;&nbsp;<b>LARGURA</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; font-weight: bold; &nbsp;&nbsp;&nbsp;&nbsp; <b>TEXTO EM NEGRITO</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; text-decoration: underline; &nbsp;&nbsp;&nbsp;&nbsp;<b>TEXTO SUBLINHADO</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; text-decoration: none; &nbsp;&nbsp;&nbsp;&nbsp; <b>TIRAR SUBLINHADO</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; text-align: center; &nbsp;&nbsp;&nbsp;&nbsp; <b>TEXTO CENTRALIZADO</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; display: table; &nbsp;&nbsp;&nbsp;&nbsp; <b>TEXTO CENTRALIZADO " cima - baixo "</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; padding: 3px; &nbsp;&nbsp;&nbsp;&nbsp; <b> TEXTO AFASTADO DA BORDA</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; border: solid 2px red; &nbsp;&nbsp;&nbsp;&nbsp; <b> BORDA AO REDOR DO ITEM</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; margin-top: 10px; &nbsp;&nbsp;&nbsp;&nbsp; <b>BORDA DO LADO DE FORA  " top"</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; margin-left: 10px; &nbsp;&nbsp;&nbsp;&nbsp; <b>BORDA DO LADO DE FORA  " left"</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; margin-bottom: 10px; &nbsp;&nbsp;&nbsp;&nbsp; <b>BORDA DO LADO DE FORA  " bottom"</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; margin-right: 10px; &nbsp;&nbsp;&nbsp;&nbsp; <b>BORDA DO LADO DE FORA  " right"</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; outline: dashed black 2px; &nbsp;&nbsp;&nbsp;&nbsp; <b>BORDA TRACEJADA DO LADO DE FORA <br></b>
+        &nbsp;&nbsp;&nbsp;&nbsp; color: blue; &nbsp;&nbsp;&nbsp;&nbsp; <b>COR DA LETRA</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; background-color: pink; &nbsp;&nbsp;&nbsp;&nbsp; <b>COR DE FUNDO</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; display: none; &nbsp;&nbsp;&nbsp;&nbsp; <b>FAZER A " div " DESAPARECER</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; list-style-position: inside; columns: 2; &nbsp;&nbsp;&nbsp;&nbsp;<b>DIVIDIR LISTAS EM DUAS COLUNAS</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; list-style-type: '\2714\00A0\00A0'; &nbsp;&nbsp;&nbsp;&nbsp;<b>SIMBOLO ANTES DA LISTA</b> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; color: blue; &nbsp;&nbsp;&nbsp;&nbsp; <b>COR DA LETRA</b> <br>
+    } <br> <br> 
+
+
+    .h1: visited{ <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: blue; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>QUANDO EU VISITAR, ESTE LINK VAI FICAR AZUL</b><br> 
+    }
+</p>
+
+<p>
+   <br> <br>
+    .h1: hover{ <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: red; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>QUANDO EU PASSAR O MOUSE EM CIMA VAI FICAR VERMELHO</b><br> 
+    }
+</p>
+
+<p>
+    <br> <br>
+    .h1: active{ <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: yellow; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> QUANDO EU CLICAR, O LINK VAI PISCAR AMARELO</b><br>
+    }
+</p>
+
+
+
+
+<h2 align="center">FOLHA ( Ex: A4) COM CONTEUDO DENTRO DELA</h2>                                    <!--Folha A4-->
+
+<p>
+
+<p>
+    <center><b>A TAG QUE ESTÁ LOGO ABAIXO VOCÊ VAI UTILIZAR PARA COLOCAR TODOS OS PARAMETROS DO TEXTO DENTRO DELA LA NO CSS</b></center> <br> <br>
+    <b style="color: red;">main{ </b> <b><u>MAIN É A FOLHA, EX: A4</u></b>
+        <br><b style="color: blue;"> Dentro do (main) você ponha todos os parametros que está logo abaixo na mesma sequência</b> <br>
+    <b style="color: red;"> } </b>
+</p>
+<p id="p13">
+    <b style="color: red;">main{ </b>  <br>
+<p>
+    <b>COR DE FUNDO DA PÁGINA, NÃO É O (BODY) É A PÁGINA!</b> <br>
+    background-color: white;  &nbsp; &nbsp; 
+</p> 
+<p>
+        <b>LARGURA DA PÁGINA </b>  <br>
+        width: 600px;   &nbsp;&nbsp; 
+</p>
+<p>
+    <b>ESPAÇO LATERAL DA PÁGINA</b> <br>
+    padding: 10px;  &nbsp;&nbsp;
+</p> 
+<p>
+        <b>MANTEM A PAGINA CENTRALIZADO INDEPENDENTE DO TAMANHO DA TELA</b> <br>
+        margin: auto;  &nbsp; &nbsp; 
+</p>
+<p>
+    <b>BORDA DA PÁGINA ARREDONDADO</b>  <br>
+    border-radius: 20px; &nbsp;  &nbsp; 
+</p>
+<p>
+    <b>SOMBREAMENTO DA PÁGINA: DIREITA - EMBAIXO  TRANSPARÊNCIA</b> <br>
+        box-shadow: 5px 5px 15px black &nbsp;  <br>
+<b style="color: red;">}</b>
+</p>
+
+</p>
+
+<h2>TAGS PARA TEXTO &DownArrow;</h2>                                                                        <!--tags para Texto-->
+
+<p>
+    <b>1CM DE AFASTAMENTO NA PRIMEIRA LINHA DO PARAGRAFO <br>DENTRO DO CSS</b> <br>
+    p{ <br>
+        &nbsp; &nbsp; &nbsp;   text-indent: 30px; <br> <br>
+    }
+</p>
+<p>
+    <b>MARCAR TEXTO COM O CSS </b> <br>
+    &lt;span class="h1"&gt; faça a sua formataçaõ &lt;/span &gt;
+</p>
+<p>
+    <b>INSERIR TEXTO AO LADO DIREITO.</b> <br>
+    &lt; p align="right" &gt;  &lt; /p &gt;
+</p>
+<p>
+    <b>INSERIR ÁUDIO </b> <br>
+    &lt; preload="metadata" autoplay controls loop &gt;
+</p>
+<p>
+    <b> INSERIR VIDEOS DO YOUTUB.</b>
+    &lt; iframe src="" frameborder="0"&gt;
+</p>
+<p>
+    <b>PARAGRAFO. </b> <br>
+    &lt; p &gt;
+</p>
+<p>
+    <b>SUBLINHADO</b> <br>
+    &lt; u &gt;
+</p>
+<p>
+    <b>ASPAS</b> <br>
+    &lt; q &gt;
+</p>
+<p>
+    <b> PARAGRAFO / LTRAS MENORES.</b> <br>
+        &lt; small &gt;
+</p>
+<p>
+    <b>TACHADO. </b> <br>
+    &lt; del &gt; &lt; /del &gt;
+</p>
+<p>
+    <b>NEGRITO.</b> <br>
+    &lt; b &gt; ... &lt; /b &gt; <br>
+    <b>font:</b>  italic bold 3em 'work Sans', sans serif;
+</p>
+<p>
+    <b>NEGRITO. </b> <br>
+        &LT; strong &gt;
+</p>
+<p>
+    <b>ITALICO.</b> <br>
+        &lt; em &gt;
+</p>
+<p>
+    <b>TEXTO GRIFADO </b> <br>
+        &lt; mark &gt;
+</p>
+<p>
+    <b>ESPAÇO ENTRE AS LETRAS.</b> <br>
+    &lt; &nbsp; &gt;
+</p>
+<p>
+    <b>ESPAÇO IGUAL ENTRE AS LETRAS</b> <br>
+    &lt; code &gt;
+</p>
+<p>
+    <b>TEXTO PARA CIMA.</b>
+    &lt;sup &gt; &lt;/sup &gt;
+</p>
+<p>
+    <b>TEXTO PARA BAIXO.</b> <br>
+    &lt;sub &gt; &lt;/sub &gt;
+</p>
+<p>
+    <b>LISTA ONDENADA COM NUMEROS.</b> <br>
+    &lt; ol &gt + &lt; li &gt;
+</p>
+<p>
+    <b>LISTA DESORDENADA SEM NUMERO.</b> <br>
+    &lt; ul &gt + &lt; ol &gt;
+</p>
+<p>
+    <b>ITALICO.</b> <br>
+    &lt; i &gt;
+</p>
+<p>
+    <b>LINK NO TEXTO.</b> <br>
+    &lt; a href="" &gt; &lt; /a &gt;
+</p>
+<p>
+    <b>ISSO FAZ O LINK SER ABERTO EM OUTRA ÁGUIA.</b> <br>
+    &lt; a href="LINK DESEJADO" target="_blank" rel="external" &gt; &lt; /a &gt;
+</p>
+<p>
+    <b>COLOCAR O MOUSE EM CIMA APARECE O QUE ESTÁ ALI.</b> <br>
+    &lt; abbr &gt; &lt;/abbr&gt;
+</p>
+    <h2>SÍMBOLOS</h2>
+    <p>
+        <b> Marca registrada.</b> <br>
+        &lt; &reg; &gt;
+    </p>
+    <p>
+        <b>Copyright</b> <br>
+        &lt; &copy; &gt;
+    </p>
+    <p>
+        <b>Trade Mark</b> <br>
+        &lt; &trade; &gt;
+    </p>
+    <p>
+        <b>Euro.</b> <br>
+        &lt; &euro; &gt;
+    </p>
+    <p>
+        <b> Libra.</b> <br>
+            &lt; &pound; &gt;
+    </p>
+    <p>
+        <b>Centavo americano.</b> <br>
+        &lt; &cent; &gt;
+    </p>
+    <p>
+        <b>Delta.</b> <br>
+        &lt; &delta; &gt;
+    </p>
+    <p>
+        <b>Ceta para cima</b> <br>
+        &lt; &uparrow; &gt;
+    </p>
+    <p>
+        <b>Ceta para baixo</b> <br>
+        &lt; &DownArrow; &gt;
+    </p>
+    <h2>EMOJIS &lt; &#x &gt; </h2>                                                      <!--EMOJIS-->
+    <p>
+        <b>TODOS ESTES PARAMETROS</b> <br>
+        &lt; &#x &gt + o código do emoji.
+    </p>
+</main>
+</body>
+</html>

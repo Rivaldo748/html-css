@@ -1,0 +1,200 @@
+fCAP.13 - AULA: 1/2
+Representação de Cores (rgb/ hsl/ nome)
+
+AULA: 3/4
+Combinações de Cores -  Paletas de Cores
+Circulo Cromatico / Armonia de Cores
+CORES PRIMARIAS: Amarelo - vermelho - Azul
+SECUNDARIAS: Laranja - Violeta - Verde
+TERCIARIAS: junção das primarias e secundarias (DEGRADE)
+APP: (1º ADOBE COLLOR) (2ºCOOLORS) (3ºPALETTON)
+
+
+AULA: 5/6     (Inportante)
+Modelos de Degrade:
+esquerda - Direita - cima - baixo.
+modelos de degrade:
+45deg - circulo etc...
+
+
+		CAPITULO 14
+
+AULA: 4/5/6	   (Importante)
+Tudo sobre Fontes
+Peso das fontes
+Formatos das fontes
+Altura das fontes
+Largura das fontes
+Negrito - italico etc...
+APP: (Google fontes)
+
+
+AULA: 7 (FONTES EXTERNAS)
+Baixar fontes do google e adicionar no seu site.
+APP: dafont.com
+
+
+AULA: 8     		(INPORTANTE)
+Colar fonte de um site 
+App: fontes ninja
+
+AULA: 9 
+Colar fonte de dentro de imagens.
+APP: whatsfontis.com 	1º
+APP: fontsquirrel
+APP: myfonts.com
+
+
+			
+
+
+				CAPITULO: 15	(IMPORTANTE)
+
+AULA: 2 INICIO DAS CAIXAS EM CSS "muito importante" 
+Adiferença no css entre
+id=""
+class=""
+
+
+AULA: 3 (SUPER INPORTANTE)
+Formatação para criar blocos no css
+(HOVER) Quando passar o mouse vai ficar da cor que você escolher
+( : Vai ficar?) Isso é um piseu do clase
+( > filho) Está dentro.
+( :: depois ) pseudo-element
+
+
+
+
+
+
+
+
+				CAPITULO 16  
+AULA: 1		
+Modelo de caixas
+a tag (div) É uma Caixa 'box-level' ocupa 100% da linha 
+a tag (span) É uma caixa 'inline-level' ocupa somente até a onde a tag alcança.
+			
+		 TAGS QUE SAO CAIXAS
+				|
+	BOX-LEVEL         | 	INLINE-LEVEL
+<div>				|<span>
+<h1>até <h6>		|<a>
+<p>				|<code>
+<header>			|<small>
+<nav>				|<strong>
+<article>			|<em>
+<asider>			|<sup> e <sub>
+<foter>			|<label>
+<form>			|<button>
+<video>			|<input>
+				|<select>
+
+
+
+AULA: 2 
+Como utilizar o (F12) Para ver as minhas caixas (div) no CSS.
+Modelo de Caixas 
+BOX-LEVEL 
+Modelo de Caixas
+INLINE-LEVEL
+
+
+
+AULA: 4
+Como criar um site utlizando TAGS facil de de trabalhar no CSS.
+<header>
+<main>
+<nav>
+<section>
+<aside>
+<footer>
+ESSAS (TAGS) SÃO FACIL DE TRABALHAR NO CSS.
+
+
+
+AULA: 7
+como criar bordas decoradas.
+
+
+
+
+				CAPITULO 17  (muito IMPORTANTE) ##
+
+
+AULA: 6   
+Como inserir FONTES no CSS.
+Como fazer CONFIGURAÇÕES GLOBAIS no CSS.
+Como ORGANIZAR a ESTRUTURA do SITE no CSS.
+
+
+	DEFINIÇÃO GLOBAL, Cores, fontes
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+:root {
+    --cor0: white;
+    --cor1: red;
+    --cor2: black;
+    --cor3: grey;
+    --cor4: blue;
+    --cor5: yellow;
+
+
+    --fonte-padrao:DIGITE SUA FONTE;
+    --fonte-destaque:DIGITE SUA FONTE;
+
+}
+
+AULA: 7 
+ Tornar uma Imagem responsivel.
+
+
+AULA: 8
+Inicio das configurações com  CSS.
+
+
+AULA: 9
+Continuação da formatação  do site com CSS.
+
+
+AULA: 11
+Como colocar correntinha no s links.
+
+AULA: 12
+Torna um video responsivel.
+
+
+
+
+		CAPITULO 18 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right,#f6d76b, #ff9036,#d6254d, #ff5475 );
+}
+
+main{  /*Main é a Parte branca ( Ex: a folha A4 */
+    background-color: white;                     /*Cor de Fundo Da Página*/
+    width: 600px;                                  /*Largura da página*/ 
+    padding: 10px;                                 /*espaço lateral da Página*/
+    margin: auto;                                  /*Mantem a Página centralizada independente do tamanho da tela*/
+    border-radius: 20px;                           /*Borda da Página arredondado*/
+    box-shadow: 5px 5px 15px black               /*Sombreamnto da Página  LATERAL - EMBAIXO - TRANSPARÊNCIA*/     
+}
+
+h1{
+    color: #ff9036;
+    text-align: center;                            /*Texto Alinhado*/
+    text-shadow: 4px 4px 4px black;              /*Sombreamento do texto  LATERAL - EMBAIXO - TRANSPARÊNCIA*/
+}
+
+h2{
+    color: #14213d;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: #774936;
+    
+}

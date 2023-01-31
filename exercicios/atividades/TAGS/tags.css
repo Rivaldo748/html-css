@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom,#f6d76b, #ff9036,#d6254d, #ff5475 ); 
+}
+#p13{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main{
+    background-color: #c3cee7;                      /* COR DA FOLHA */
+    width: 800px;                                     /* LARGUDA DA FOLHA */
+    padding: 10px;                                    /* ESPAÇO ENTRE O FIM DO TEXTO E A FOLHA */
+    margin: auto;                                     /* MANTEM A PAGINA CENTRALIZADO INDEPENDENTEMENTE DO TAMANHO DA TELA */
+    border-radius: 20px;                              /* CANTOS DA FOLHA ARREDONDADOS */
+    box-shadow: 10px, 10px, 15px, black;            
+}
+
+h2{
+    color:#050404;
+    text-align: center;
+    text-shadow: 4PX 4PX 4PX orange;
+
+}

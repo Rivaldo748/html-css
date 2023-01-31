@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMATOS DE VIDEO</title>
+</head>
+<body>
+    <h2>temos aqui um vídeo (Mp4) convertido no App_ HandBreake</h2>
+    <p></p>
+    agora vamos deixar um vídeo com o formato (mp4) para você assistir. <br>
+    <!--Abaixo você tera a primeira (TAG) de vídeo-->
+    <video controls poster="imagens/rivaldo.jpeg" src="video/Toguro_convertido_handbreake.m4v" width="250" height="150" controls autoplay loop></video> <!--video-->  <br> 
+    <h2>Abaixo está a segunda forma de utilizar uma (TAG) para renderizar seu vídeo.</h2>
+    <p><b><U>veja na estrutura do HTML</U></b></p>
+     <!--A segunda forma de (TAG) para aplicar no seu vídeo-->
+    <video poster="imagens/Belo Horizonte.jpg" width="250px" height="150px" controls altoplay loop>
+        <source src="video/Toguro_convertido_handbreake.mp4" type="video/mp4">
+        <source src="video/Toguro_convertido_handbreake.m4v" type="video/mp4">
+        <source src="video/Toguro_convertido_handbreake.webm" type="video/webm">
+        <source src="video/Toguro_convertido_handbreake.ogv" type="video/ogg">
+    </video>
+    <br>
+    <h2>Agora vamos iserrir áudio utilizando formato de (TAGS) diferente.</h2>
+    <b><U>Veja na estrutura do HTML.</U><b> <br>
+    <!--abaixo está o primeiro formato de (TAG) para tocar seu áudio.-->
+    <audio src="audio/restitui.mp3" autoplay preload="metadata" controls loop></audio> <!--áudio-->
+    <h2>Abaixo está a segunda forma de utilizar uma (TAG) para tocar seu áudio.</h2>
+    <P><b><U>Veja na estrutra do HTML</U></b></P>
+    <audio autoplay preload="metadata" controls loop>
+        <source src="audio/deserto.mp3" type="audio/mpeg">
+        <source src="audio/deserto.ogg" type="audio/ogg">
+        <source src="audio/deserto.wav" type="audio/wav">
+    </audio>
+
+
+    </p>
+        
+</body>
+</html>

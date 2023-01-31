@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAZENDO DEGRADE_CORES</title>
+    <style>
+        * {/*configurções globais das CSS*/
+            height: 100%;
+        }
+
+        body { /*posso utilizar (45deg) ou (to left) para escolher o lugar que a cor vai ficar na tela.*/
+                /*degrade em forma de circulo*/
+                /*background-image: radial-gradiente(circle, #, #, #)*/
+
+            background-image: linear-gradient(to bottom, #EC4E4C, #FECA67 30%, #DF2F71, #B833AB, #823CAB);
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+
+<body>
+    
+    <h1>Testando cores em Degrade</h1>
+</body>
+</html>
