@@ -180,6 +180,15 @@ Torna um video responsivel.
 NÃO ASSISTI AULA:   4, 5, 6, 7, 8, 9, 10
 
 
+
+		CAPITULO 19
+AULA: 02
+Colocando imagem de fundo dentro do site
+
+AULA: 03
+
+
+
  
 
 
