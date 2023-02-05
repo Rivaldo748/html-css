@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+    font-family: 'pricedown';
+    src: url('Fontes/pricedown/pricedown\ bl.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'love_3';
+    src: url('Fontes/love_3/Love.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neue';
+    src: url('Fontes/Bebas_Neue/BebasNeue-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:'fright_maiden' ;
+    src: url('Fontes/fright_maiden/Fright\ Maiden\ Demo.ttf') format('opentype');
+    font-weight:normal;
+}
+
+:root {
+    --cor0: #ffffff;
+    --cor1: #83e1adb2;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --cor6: #000000;
+
+    --fonte-titulos: 'pricedown', cursive;
+    --fonte-sub-titulos:'fright_maiden',cursive;
+    --fonte-padrao:'bebas_neue', cursive;
+    --fonte-reserva: 'love_3', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    text-indent: 30px;
+    font-family: var(--fonte-padrao);
+}
+
+
+body {
+    background-image: url('Imagens/wallpaper002.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+    background-color: grey;
+}
+
+header h1{
+    font-family: var(--fonte-titulos);
+    font-size: 4em;
+    color: #bce038;
+    text-shadow:red;
+}
+header p {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+nav {
+    font-family: var(--fonte-reserva);
+    background-color:#bce038a4;
+    padding: 20px;
+    box-shadow: -9px 9px 15px -11px;   
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    transition: 1.5s;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    transition-duration: 0.5s;
+    color: white;
+    background-color: black;
+    text-decoration: underline red;
+}
+
+main {
+    text-align: justify;
+    max-width: 920px;
+    padding: 10px;
+    margin: auto;
+    background-color:#818274;
+    box-shadow: 0px 4px 10px 1px;
+}
+main a {
+    background-color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+main a:hover {
+    color: white;
+    text-decoration: underline red;
+}
+
+main  h2 {
+    font-family: var(--fonte-sub-titulos);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, #feaa242c, #7dd8565d, #e15e328f );
+}
+
+main  img {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+main img.pequeno {
+    display: block;
+    max-width: 920px;
+    margin: auto;
+}
+
+
+    /* Como deixar um vídeo de forma responsivel */
+.conteiner {
+    max-width: 920px;    
+}
+
+div.video {
+    width: 100%; /* Está ocupando a largura total da da div CONTEINER */
+    padding-top: 56.25%; /* As margens preta que aparecem conforme o tamanho do vídeo. */
+    position: relative;
+}
+
+div .video iframe {
+    width: 100%;    /* está ocupando a largura total da da div VIDEO */
+    height: 100%;   /* está ocupando a largura total da da div VIDEO */
+    position: absolute; /* esta por cima da div VIDEO */
+    top: 0px;
+}
+
+aside {
+    background-color: #3ddc8541;
+    border-radius: 15px 15px 0px 0px;
+}
+
+aside h2 {
+    border-radius: 15px 15px  0px 0px ;
+    padding: 10px;
+}
+
+aside ul {
+    list-style-position: inside; columns: 2;
+    list-style-type: '\00A0\1F349';
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+
+footer p {
+    font-family: var(--fonte-reserva);
+}
+
+footer a {
+    text-decoration: none;
+    font-family: var(--fonte-reserva);
+}
+footer a:hover {
+    color:red;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+footer strong {
+    color:#2fa866;
+}
+
+
+
