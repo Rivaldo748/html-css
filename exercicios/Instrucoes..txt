@@ -185,6 +185,10 @@ NÃO ASSISTI AULA:   4, 5, 6, 7, 8, 9, 10
 AULA: 02
 Colocando imagem de fundo dentro do site
 
+background-image: url('coloque imagem aqui dentro')
+background-size: 100%;
+background-repeat: repeat;   <no-repeat> ou <repeat-y> ou <repeat-x> ESCOLHA APENAS UM DELES.
+
 AULA: 03
 
 
