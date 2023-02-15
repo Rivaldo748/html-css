@@ -5,6 +5,9 @@
     padding: 0px;
 }
 
+*p {
+    font-family: var(--font-padrao);
+}
 
 @font-face {
     font-family: 'pricedown';
@@ -21,10 +24,16 @@
     src: url(Fontes/agressive/AGRESSIVE.otf) format(opentype);
 }
 
+@font-face {
+    font-family: 'bebas_neue';
+    src: url(Fontes/Bebas_Neue/BebasNeue-Regular.ttf) format(opentype);
+}
+
 :root {
     --font-titulo:'pricedown', cursive;
     --font-subtitulo:'designer', cursive;
     --font-padrao:'agressive', cursive;
+    --font-reserva:'bebas_neue', cursive;
 }
 
 
@@ -84,13 +93,9 @@ main h2 {
 
 }
 
-main p {
-    font-family: var(--font-padrao);
-}
-
 main .conteiner {
-    max-width: 920px;
-    
+    max-width: 920px; 
+    padding: 10px;       
 }
 
 .div-video  {
@@ -105,5 +110,25 @@ main .conteiner {
     position: absolute;
     top: 0px;
     left: 0px;
+    border-radius: 5px;
 }
 
+.pai {
+    max-width: 920px;
+    height: 500px;
+    padding: 10px;
+    border: solid 2px blue;
+}
+
+.pai .filho {
+    border: solid 2px orange;
+    height: 100%;
+}
+
+.filho > .q1,.q2,.q3{
+    display: inline-block;
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    position: relative;
+}
